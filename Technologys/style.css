@@ -1,0 +1,58 @@
+.inner-services {
+  background-color: #edf6ff;
+  width: 22%;
+  text-align: start;
+  border-radius: 15px;
+  padding: 20px;
+  padding-top: 50px;
+  background: linear-gradient(to right, #edf6ff 50%, #082680 50%) left;
+  background-size: 200%;
+  transition: 0.3s ease-out;
+  margin-top: 20px;
+  color: #082680;
+}
+
+.inner-services:hover  {
+  background-position: right;
+  color: white;
+}
+.inner-services:hover a  {
+    background-position: right;
+    color: white;
+  }
+
+.inner-services a {
+  text-decoration: none;
+  color: blue;
+}
+
+.inner-services i {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+
+@media only screen and (max-width: 766px) {
+  .inner-services {
+    width: 95%;
+    margin-top: 20px;
+    text-align: start;
+    border-radius: 15px;
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .inner-services {
+    width: 40%;
+    margin-top: 20px;
+    text-align: start;
+    border-radius: 15px;
+    padding: 20px;
+  }
+}
